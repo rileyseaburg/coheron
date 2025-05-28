@@ -10,7 +10,8 @@ import json
 import sys
 import numpy as np
 from typing import List, Dict, Any, Tuple
-from qiskit import QuantumCircuit, transpile, Aer
+from qiskit import QuantumCircuit, transpile
+from qiskit_aer import Aer
 from qiskit.visualization import plot_histogram
 from qiskit.quantum_info import Statevector
 

@@ -24,7 +24,7 @@ def process_via_quantum_layer(token_data: List[Dict[str, Any]]) -> List[Dict[str
     """
     # Path to the quantum processor script
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    quantum_processor = os.path.join(os.path.dirname(script_dir), 'quantum-layer', 'quantum_processor.py')
+    quantum_processor = os.path.join(os.path.dirname(script_dir), 'quantum_layer', 'quantum_processor.py')
     
     # Run the quantum processor script as a subprocess
     process = subprocess.Popen(
