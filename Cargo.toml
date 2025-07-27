@@ -1,0 +1,16 @@
+[package]
+name = "coheron"
+version = "0.1.0"
+edition = "2021"
+authors = ["Riley Seaburg"]
+description = "Quantum-Guided Symbolic Agent"
+license = "MIT"
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+tokio = { version = "1.0", features = ["full"] }
+clap = { version = "4.0", features = ["derive"] }
+
+[dev-dependencies]
+tokio-test = "0.4"

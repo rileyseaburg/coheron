@@ -70,23 +70,43 @@ coheron/
 
 ## 🔑 Getting Started
 
+### Prerequisites
+- Rust (latest stable)
+- Python 3.10+
+- NumPy (`pip install numpy`)
+
+### Quick Start
+
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/coheron.git
-````
+   git clone https://github.com/rileyseaburg/coheron.git
+   cd coheron
+   ```
 
-2. Install requirements:
+2. Install Python dependencies:
+   ```bash
+   pip install numpy
+   ```
 
-   * Rust (latest stable)
-   * Python 3.10+
-   * Qiskit (`pip install qiskit`)
-   * ONNX Runtime (`pip install onnxruntime`)
-
-3. Run a local inference + quantum scoring loop:
-
+3. Run the integrated system:
    ```bash
    cargo run
    ```
+
+4. Run tests to validate functionality:
+   ```bash
+   python3 integration_test.py
+   ```
+
+### Current Implementation Status
+
+✅ **WORKING PROTOTYPE** - See [IMPLEMENTATION.md](IMPLEMENTATION.md) for details.
+
+- Rust inference engine with mock transformer
+- Python quantum coherence evaluation layer  
+- JSON-based communication bridge
+- Comprehensive test suite
+- End-to-end text generation with quantum modulation
 
 ---
 
