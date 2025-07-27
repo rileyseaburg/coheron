@@ -1,0 +1,29 @@
+# Rust build artifacts
+/target/
+Cargo.lock
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local test files
+/tmp/
+.pytest_cache/
+
+# Logs
+*.log
